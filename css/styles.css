@@ -16,10 +16,12 @@ list-style: none;
 .header-style {
 background: var(--WHITE, #FFF);
 border-bottom: 1px solid #e7e9fc;
+
 }
 .header-style-link {
 display: flex;
 align-items: center;
+
 }
 .header-container {
         width: 1440px;
@@ -45,9 +47,9 @@ color: #2e2f42;
 }
 
 /*Info*/ 
-.ínfo-menu-item {
+.info-menu {
 display: flex;
-gap: 40px;
+    gap: 40px;
 }
 
 .info {
@@ -178,6 +180,19 @@ letter-spacing: 0.02em;
 width: 1440px;
     height: 3300px;
 }
+.section-four-menu {
+display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 48px;
+
+}
+.container-four-menu {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+
+}
 .section-name {
 font-size: 36px;
 text-align: center;
@@ -186,6 +201,7 @@ text-transform: capitalize;
 color: #2E2F42;
 font-weight: 700;
 line-height: 1.11;
+margin-bottom: 72px;
 }
 
 .fon-section {
@@ -196,6 +212,7 @@ line-height: 1.11;
 }
 .fon-section-our-portfolio {
 border: 1px solid var(--CORNFLOWER, #E7E9FC);
+width: calc((100% - 48px) / 3);
 }
 
 .name-style {
@@ -204,13 +221,15 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 font-weight: 500;
 line-height: 1.2;
-
+margin-bottom: 8px;
 }
 
 /*Footer*/
 
 .footer-fon {
 color: #2e2f42;
+padding-top: 100px;
+padding-bottom: 100px;
 }
 
 .footer-style {
@@ -221,6 +240,8 @@ font-family: "Raleway", sans-serif;
 letter-spacing: 0.03em;
     text-transform: uppercase;
     color:  #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .accent-footer {
