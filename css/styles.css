@@ -141,10 +141,10 @@ max-width: 496px;
 .section-two-list {
 display: flex;
 gap: 24px;
-width: calc((100%-72px)/4);
+
 }
 .section-two-list-one {
-
+width: calc((100%-72px)/4);
 }
 .section-two {
 font-size: 20px;
