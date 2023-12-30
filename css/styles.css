@@ -140,12 +140,15 @@ max-width: 496px;
 }
 
 /*Section2*/
+.visually-hidden {
+overflow: hidden;
+}
 .section-two-list {
 display: flex;
 gap: 24px;
 }
 .section-two-list-one {
-flex-basis: calc((100% - 72px) / 4));
+width: calc((100%-72px)/4);
 }
 .section-two {
 font-size: 20px;
@@ -177,10 +180,18 @@ color: #434455;
         flex-shrink: 0;
         
 }
-
+.section-three-link{
+display: flex;
+gap: 24px;
+}
+.section-three-div {
+padding-top: 32px;
+padding-bottom: 32px;
+}
 .section-proffesion {
 line-height: 1.5;
 letter-spacing: 0.02em;
+text-align: center;
 }
 
 /*Section4*/
@@ -217,6 +228,8 @@ margin-bottom: 72px;
     background-color: #FFFFFF;
     justify-content: center;
         align-items: center;
+        width: calc((100% - 72px) / 4);
+        border-radius: 0px 0px 4px 4px;
        
 }
 .fon-section-our-portfolio {
@@ -231,6 +244,7 @@ color: #2e2f42;
 font-weight: 500;
 line-height: 1.2;
 margin-bottom: 8px;
+text-align: center;
 }
 
 /*Footer*/
