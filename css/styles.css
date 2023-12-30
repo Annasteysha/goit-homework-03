@@ -70,9 +70,11 @@ color: #404BBF;
 .address-link {
 font-style: normal;
 }
+.address-link-menu {
+    display: flex;
+        gap: 40px;
+}
 .address-info {
-display: flex;
-gap: 40px;
 
 }
 .address-style {
