@@ -245,7 +245,7 @@ margin-bottom: 72px;
 }
 .fon-section-our-portfolio {
 border: 1px solid var(--CORNFLOWER, #E7E9FC);
-width: calc((100% - 48px) / 3);
+width: calc ((100% - 48px) / 3);
 }
 
 .section-four-div {
