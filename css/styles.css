@@ -158,7 +158,6 @@ overflow: hidden;
 }
 
 .section-two-list-one {
-    margin-right: 24px;
 flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .section-two {
