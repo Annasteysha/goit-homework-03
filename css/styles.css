@@ -213,10 +213,10 @@ text-align: center;
 }
 /*Section4*/
 
-.container-four {
+/* .container-four {
 width: 1440px;
     height: 3300px;
-}
+} */
 .section-four-menu {
 display: flex;
 flex-wrap: wrap;
