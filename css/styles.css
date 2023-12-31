@@ -205,11 +205,9 @@ letter-spacing: 0.02em;
 }
 .fon-section-three {
 border-radius: 0px 0px 4px 4px;
-}
-.section-three-link .fon-section-three {
 width: calc((100% - 72px) / 4);
-
 }
+
 .section-profession-style {
 text-align: center;
 }
@@ -242,7 +240,6 @@ margin-bottom: 72px;
     background-color: #FFFFFF;
     justify-content: center;
         align-items: center;
-        width: calc((100% - 48px) / 3);
         border-radius: 0px 0px 4px 4px;
        
 }
@@ -250,9 +247,7 @@ margin-bottom: 72px;
 border: 1px solid var(--CORNFLOWER, #E7E9FC);
 width: calc((100% - 48px) / 3);
 }
-.section-four-list {
-width: calc((100% - 48px) / 3);
-}
+
 .section-four-div {
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
