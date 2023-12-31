@@ -220,11 +220,10 @@ width: 1440px;
 .section-four-menu {
 display: flex;
 flex-wrap: wrap;
-gap: 24px;
-
-}
 column-gap: 24px;
-row-gap: 48px;
+    row-gap: 48px;
+}
+
 
 .section-name {
 font-size: 36px;
