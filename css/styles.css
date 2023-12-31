@@ -159,9 +159,6 @@ overflow: hidden;
 
 .section-two-list-one {
     display: flex;
-    flex-direction: column;
-    gap: 8px;
-    align-items: flex-start;
 width: calc((100% - 72px) / 4);
 
 }
