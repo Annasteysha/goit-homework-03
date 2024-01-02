@@ -142,7 +142,8 @@ max-width: 496px;
 .section-two-list {
 display: flex;
 gap: 24px;
-
+margin: 0;
+padding: 0;
 }
 .visually-hidden {
 position: absolute;
@@ -195,6 +196,8 @@ color: #434455;
 .section-three-link{
 display: flex;
 gap: 24px;
+margin: 0;
+    padding: 0;
 }
 .section-three-div {
 padding-top: 32px;
@@ -215,15 +218,17 @@ text-align: center;
 }
 /*Section4*/
 
-/* .container-four {
+.container-four {
 width: 1440px;
     height: 3300px;
-} */
+} 
 .section-four-menu {
 display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
+margin: 0;
+    padding: 0;
 }
 
 
